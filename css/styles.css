@@ -1,0 +1,104 @@
+* {
+	box-sizing:border-box;
+}
+body, html {
+height:100%;
+width:100%;
+	
+}
+body{
+font-family:Arial, sans-serif;
+background:linear-gradient(45deg, #ff512f, #dd2476);
+position:relative;
+}
+.form {
+width:460px;
+color:#7a7b7f;
+font-size:0;
+background:#fff;
+padding:30px;
+border-radius:5px;
+box-shadow:3px 0 7px rgba(0,0,0,.35);
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+}
+.form__title {
+	font-size:24px;
+	color:#000;
+	font-weight:600;
+	margin:0;
+}
+.form__info {
+	font-size:13px;
+	line-height:1.4;
+	outline:none;
+}
+.form__info--small {
+	font-size:12px;
+}
+.form__title:before {
+	content: url('../img/key.svg');
+	padding-right:5px;
+	
+}
+.fields {
+	width:395px;
+	font-size:14px;
+	line-height:1.4;
+	border-radius:3px;
+	background:#f0f0f0;
+	padding:14px;
+	margin-bottom:15px;
+	outline:none;
+	word-break:break-all;
+	-webkit-appearance: none;
+	border-style:none;
+	-webkit-transition: opacity .1s ease;
+	   -moz-transition: opacity .1s ease;
+	    -ms-transition: opacity .1s ease;
+	     -o-transition: opacity .1s ease;
+	        transition: opacity .1s ease;
+}
+.fields:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.fields:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.fields:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.fields:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.fields--slim:nth-of-type(odd) {
+	margin-right:15px;
+}
+.fields--slim {
+	width:190px;
+}
+.btn {
+	width:395px;
+	background:#ea355a;
+	color:#fff;
+	border-radius: 3px;
+	padding:20px;
+	font-size:18px;
+	font-weight:600;
+	border-style:none;
+	-webkit-appearance: none;
+	outline:none;
+	box-shadow:0 3px 1px #bd1962
+}
+.form__link {
+	text-decoration:none;
+	color:#e12a6c;
+}
+.form__link:hover,
+.form__link:active,
+.form__link:focus {
+	color:#3f9e41;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+	opacity:.9;
+	transition: all 0.3s ease;
+	box-shadow:inset 0 0 10px 10px #bd1962;
+}
