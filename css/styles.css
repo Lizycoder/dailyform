@@ -66,10 +66,10 @@ transform: translate(-50%, -50%);
 .fields:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
 .fields:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
-.fields--slim:nth-of-type(odd) {
+.slim:nth-of-type(odd) {
 	margin-right:15px;
 }
-.fields--slim {
+.slim {
 	width:190px;
 }
 .btn {
