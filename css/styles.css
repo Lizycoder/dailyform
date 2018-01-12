@@ -32,8 +32,10 @@ transform: translate(-50%, -50%);
 }
 .form__info {
 	font-size:13px;
-	line-height:1.4;
+	line-height:1.5;
 	outline:none;
+	padding:20px 0 36px;
+	margin:0;
 }
 .form__info--small {
 	font-size:12px;
@@ -46,10 +48,10 @@ transform: translate(-50%, -50%);
 .fields {
 	width:395px;
 	font-size:14px;
-	line-height:1.4;
+	line-height:.86;
 	border-radius:3px;
 	background:#f0f0f0;
-	padding:14px;
+	padding:12px;
 	margin-bottom:15px;
 	outline:none;
 	word-break:break-all;
